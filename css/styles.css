@@ -1,0 +1,117 @@
+:root {
+  --white-color: #ffffff;
+  --blue-color: #2196f3;
+  --gray-one: #212121;
+  --gray-two: #757575;
+  --family-relway: "Raleway", sans-serif;
+}
+body {
+  font-family: "Roboto", sans-serif;
+  background: #e5e5e5;
+}
+.navigation-links .link {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--gray-one);
+  text-decoration: none;
+}
+.navigation-links .link:focus,
+.navigation-links .link:hover {
+  color: var(--blue-color);
+}
+.navigation .tel-link {
+  color: var(--gray-two);
+  font-weight: 500;
+  font-size: 14px;
+  text-decoration: none;
+}
+.button {
+  background: #2196f3;
+  color: var(--white-color);
+  border-radius: 4px;
+  outline: none;
+  border: 1px solid var(--blue-color);
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+}
+.main-section .secondary {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: calc(60 / 44);
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.main-section .title-text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: calc(16 / 14);
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--gray-one);
+}
+.main-section .text {
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--gray-two);
+}
+.title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: calc(24 / 36);
+  letter-spacing: 0.03em;
+  color: var(--gray-one);
+}
+.title-one {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: calc(19 / 16) 19px;
+  letter-spacing: 0.03em;
+  color: var(--gray-one);
+}
+.title-prof {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: calc(19 / 16);
+  letter-spacing: 0.03em;
+  color: var(--gray-two);
+}
+.web {
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  font-family: var(--family-relway);
+  text-decoration: none;
+}
+.web-blue {
+  color: var(--blue-color);
+}
+.link-down {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: var(--white-color);
+  text-decoration: none;
+}
+.link-down:focus,
+.link-down:hover {
+  color: var(--blue-color);
+}
+.link-down-contact {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: calc(24 / 14);
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+  text-decoration: none;
+}
+.link-down-contact:focus,
+.link-down-contact:hover {
+  color: var(--blue-color);
+}
